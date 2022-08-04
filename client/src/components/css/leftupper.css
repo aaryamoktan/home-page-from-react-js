@@ -1,0 +1,34 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.leftupper
+{
+    position:absolute;
+    width:26%;
+    height:auto;
+    box-shadow: 1px 1px 13px black;
+    margin-top: 10px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    margin-left:10px;
+}
+.leftupper .leftupper_cont
+{
+    margin-top:30px;
+  
+}
+.leftupper .leftupper_cont ul
+{
+    list-style: none;
+    text-transform: capitalize;
+}
+.leftupper .leftupper_cont li{
+    box-shadow: 1px 10px 10px rgb(115, 113, 113);;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    
+}

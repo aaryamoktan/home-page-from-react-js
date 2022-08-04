@@ -1,0 +1,70 @@
+const mongoose = require("mongoose");
+const UserSchema = new mongoose.Schema(
+    {
+        username:
+        {
+            type:String,
+            required:true
+        },
+        email:
+        {
+            type:String,
+            required:true,
+            max:50,
+            unique:true
+        },
+        password:
+        {
+            type:String,
+            require:true,
+            min:7
+        },
+        profilePic:
+        {
+            type:String,
+        },
+        coverPic:
+        {
+            type:String
+        },
+        following:
+        {
+            type:Array,
+            default:[]
+        },
+        followers:
+        {
+            type:Array,
+            default:[]
+
+        },
+        isAdmin:
+        {
+            type:Boolean,
+            default:false
+        },
+        desc:
+        {
+            type:String,
+            max:50
+        },
+        country:
+        {
+            type:String,
+            max:50,
+        },
+        city:
+        {
+            type:String,
+            max:50
+        },
+        relationship:
+        {
+            type:Number,
+            enum: [1,2,3]
+        }
+    },
+    {timestamps:true}
+)
+const userModel =  new mongoose.model("userdata",UserSchema);
+module.exports = userModel

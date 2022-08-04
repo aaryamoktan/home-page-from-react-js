@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nevbar
+{
+    width:100%;
+    position:relative;
+    height:7.5vh;
+    background:rgb(214, 238, 247);
+}
+.Nevbar .Nevbar_cont
+{
+    display:flex;
+    justify-content: space-around;
+}
+.Nevbar .Nevbar_cont .logo
+{
+    font-size: 30px;
+    color:black;
+    margin-top:10px;
+}
+.Nevbar .Nevbar_cont ul
+{
+    display:flex;
+    justify-content: space-around;  
+}
+.Nevbar .Nevbar_cont li{
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 20px;
+    font-size:20px;
+    color:black;
+}

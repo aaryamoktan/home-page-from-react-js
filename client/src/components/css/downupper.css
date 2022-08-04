@@ -1,0 +1,58 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.upperprofile
+{
+width:100%;
+height:60vh;
+box-shadow: 1px 1px 12px black;
+margin-right: 5px;
+border-radius: 10%;
+}
+.upperprofile .profilcontent .coverimg
+{
+    width:100%;
+    height:40vh;
+}
+.upperprofile .profilcontent .coverimg img
+{
+    width:100%;
+    height:100%;
+}
+.upperprofile .profilcontent .prfileimg
+{
+    position:relative;
+    width:30%;
+    height:15vh;
+    
+    
+}
+.upperprofile .profilcontent .prfileimg img{
+    position:relative;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    top:-50%;
+    left:110%;
+}
+.upperprofile .profilcontent .profilename
+{
+    width:100%;
+    height:10vh;
+
+    margin-top: -50px;
+}
+.upperprofile .profilcontent .profilename h3{
+    text-transform:capitalize;
+    width:20%;
+    margin-left: 40%;
+ 
+}
+.upperprofile .profilcontent .profilename p{
+    text-transform:capitalize;
+    margin-left: 37.75%;
+
+}
